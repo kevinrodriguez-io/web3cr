@@ -1,5 +1,9 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
+/**
+ * TODO: Move styles to proper styled components or css modules
+ * instead of embedding directly the stylesheets
+ */
 class Web3CRDocument extends Document {
   render() {
     return (
@@ -7,7 +11,6 @@ class Web3CRDocument extends Document {
         <Head>
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
             rel="preconnect"

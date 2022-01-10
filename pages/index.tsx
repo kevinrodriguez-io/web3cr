@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import type { NextPage } from "next";
+import type { NextPage as WEB3CRHome } from "next";
 
 const DISCORD_LINK = "https://discord.gg/2w6zGfuxbz";
 
-const Home: NextPage = () => (
+const Home: WEB3CRHome = () => (
   <>
     <header>
       <div className="head">

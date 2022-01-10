@@ -1,7 +1,7 @@
 import type { AppProps } from "next/app";
 
-const MyApp = ({ Component, pageProps }: AppProps) => {
+const Web3CRApp = ({ Component, pageProps }: AppProps) => {
   return <Component {...pageProps} />;
 };
 
-export default MyApp;
+export default Web3CRApp;
